@@ -1,0 +1,12 @@
+language: python
+python:
+- '3.7'
+install:
+- pip install -r requirements-test.txt
+script:
+- pytest
+notifications:
+  slack: cyborged:37K3wQ7qoWjZ1FM2cf7TdJTC
+env:
+  global:
+    secure: kc7DEUjnAu8clSvzOJodnzjnrqqaoMIiYxqKz7vRc1k1X4HDO9APxkIKS9ySWYVRVV/HCDl9c5D7MG4jI97ROUoxo576DOHucjv4K4u1hTx2gvOXoqU1fFT/AduVrTMto3Zjg216oEd1nUAa9iB2iidKRwhqeaHa4ufbcQs07QxE73IZhfhIldXSWC33ecE0gkEvd8I1abwyiGjP/IxAZC9LSOyUTw7puR9K8Kc7QqSudpIo34STs7v6Ylsf0UVKDciFBJxiuQ5x43qN+Rcub+D0UypZxY7W9LEiQQRQEqJ5dURZkC8kgDyX/VGWKiIr2HykYXBwK7pxoCs3jmFC9Ix9+gdut2ODI5gcOb4rJ91eRYHmRq6TpN0atmL1EiAaI1rjxsPVlWE9NJ/uX1JxFbGzNKIWAOew4W2TUHXwzqyHleGGOwirdt5elafrqwZSjlWSRFlbld/TMatYiHE+nB1baM5pDAddhNgglzc+ZC10c8pEIZfk33TL16OS8aocbtwpIYBT95h+F5nlRSaI/D6eRwJF0Mu+/Utn4wXmUplPfkfM7Aps64/rK/wMEEe8GDAE77LTAy5KdeD+Xv7iTwu5HrcFad0Mc+EQyEviLKo/rXX0/bPPnZlu1Y1RtAkihILFDPXxn50ejMz8z+NsGEOtknSVTG5TkizlXLa/U+0=
