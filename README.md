@@ -33,5 +33,6 @@ The project uses the `django-cors-headers` library to talk to the `Reactjs` fron
 
 1. If the frontend is running on a port other than `3000`, modify the `CORS_ORIGIN_WHITELIST` property in `settings.py`
 2. Add data using the `django shell` or via https:\\localhost:8000\admin
-
-
+---
+## Running tests
+The project uses the `pytest-django` library to run test cases. To run a test, `cd` to the `quiz_api_manager` directory and run the `pytest` command
