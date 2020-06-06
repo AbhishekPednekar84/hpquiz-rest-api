@@ -6,7 +6,7 @@ This repository contains the `Django` backend code for the **[yahpq.rocks](https
 
 **Versions**<br/>
 1. Python- v3.7
-2. Django - v3.0.5
+2. Django - v3.0.7
 3. Django REST Framework - v3.11.0
 
 ## Creating a local setup
